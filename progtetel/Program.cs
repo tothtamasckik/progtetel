@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace git
 {
@@ -10,7 +6,13 @@ namespace git
     {
         static void Main(string[] args)
         {
-            
+            int[] x = { -99, 12, 21, 666, -4, 69, 45, 82};
+
+            //Maximum kiválasztás - Person number two rawrrrr
+
+
+
+            //Párosak kiválogatása - Ewwww romaniannn
         }
     }
 }
