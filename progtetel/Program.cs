@@ -9,18 +9,7 @@ namespace git
             int[] x = { -99, 12, 21, 666, -4, 69, 45, 82};
 
             //Maximum kiválasztás - Person number two rawrrrr
-            int n = x.Length;
-            int maxi = x[0];
-            int k = 0;
-            for (int i = 0; i < n; i++)
-            {
-                if (maxi < x[i])
-                {
-                    maxi = x[i];
-                    k = i;
-                }
-            }
-            Console.WriteLine($"{maxi} {k}");
+
 
             //Párosak kiválogatása - Ewwww romaniannn 
             int[] parosak = new int[100];
@@ -30,6 +19,10 @@ namespace git
             {
                 parosak[db] = x[i];
                 db++;
+            }
+            for (i = 0; i < x.Length; i++)
+            {
+
             }
         }
     }
