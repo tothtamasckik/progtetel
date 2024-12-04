@@ -11,8 +11,15 @@ namespace git
             //Maximum kiválasztás - Person number two rawrrrr
 
 
-
-            //Párosak kiválogatása - Ewwww romaniannn
+            //Párosak kiválogatása - Ewwww romaniannn 
+            int[] parosak = new int[100];
+            int db = 0;
+            int i;
+            for (i = 0; i < x.Length; i++)
+            {
+                parosak[db] = x[i];
+                db++;
+            }
         }
     }
 }
